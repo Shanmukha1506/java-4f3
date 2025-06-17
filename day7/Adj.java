@@ -46,7 +46,7 @@ class Graph {
 	}
 	boolean ishavingedge(int s,int d) {
 		if(isvalid(s,d)) {
-			var arr=graph.get(s);
+			Node arr=graph.get(s);
 			for(int i=0; i<arr.size(); i++) {
 				if(arr.get(i)==d) {
 					return true;

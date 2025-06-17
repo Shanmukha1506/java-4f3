@@ -47,7 +47,7 @@ class Stack {
 		if(isempty()) {
 			return;
 		}
-		var temp=head;
+		
 		head=head.next;
 	}
 

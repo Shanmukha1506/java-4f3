@@ -18,7 +18,7 @@ class Queue{
     int front;
     int size;
     Queue(int size){
-        this.rear=rear;
+      
         this.front=0;
         this.size=0;
         this.queue=new int[size];

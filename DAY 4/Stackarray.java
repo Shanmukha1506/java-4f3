@@ -16,7 +16,7 @@ class Stack{
     Stack(int size){
         this.size=size;
         this.stack=new int[size];
-        int top=-1;
+       
     }
     boolean isfull(){
         if(top==size-1){
